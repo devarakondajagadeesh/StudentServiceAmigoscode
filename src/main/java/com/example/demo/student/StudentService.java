@@ -11,7 +11,7 @@ import java.util.List;
 public class StudentService {
     public List<Student> getStudentDetails(){
         return List.of(
-                new Student(1L, "Jagadeesh Devarakonda", "jagadeesh@example.com", LocalDate.of(2000, 1, 1), 23)
+                new Student(1L, "Jagadeesh", "jagadeesh@example.com", LocalDate.of(2000, 1, 1), 23)
         );
     }
 }
